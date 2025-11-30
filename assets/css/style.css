@@ -92,39 +92,49 @@ header {
 }
 
 .menubar {
-    /* border: 2px solid black; */
-
-}
-
-.menubar {
     width: 530.95px;
     height: 41.6px;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
 }
 
 .menubar .profile {
     width: 151.06px;
     height: 41.06px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
 }
 
 .menubar .profile .profilechild {
     width: 111.06px;
     height: 41.6px;
-    /* border: 1px solid red; */
+
     display: flex;
     align-items: center;
-    padding: 0px 20px 0px 20px;
-    margin-left: 8px;
+    margin-left: 2px;
     margin-top: 1px;
     letter-spacing: 0.5px;
+}
+
+.loginpage {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.menubar .profile .profilechild:hover {
+    background-color: #2a55e5;
+    border: none;
+    border-radius: 8px;
 }
 
 .menubar .profile .profilechild img {
     width: 24px;
     height: 24px;
     margin-right: 8px;
+    margin-left: 5px;
 }
 
 #downarrow {
@@ -184,14 +194,30 @@ header {
     align-items: center;
     padding: 0px 20px;
     margin-top: 1px;
+    margin-left: 1px;
+    padding-left: 40px;
+}
 
+.dotsbox {
+    width: 71.6px;
+    height: 41.6px;
+    padding-left: 39px;
+    margin-left: 1px;
+}
+
+.dotsbox:hover {
+    border: 1px solid #e0e0e0;
+    background: #fafafa;
+    border-radius: 8px;
 }
 
 .dots #dot3 {
     width: 24px;
     height: 24px;
-    margin-left: 30px;
+    margin-left: -32px;
+    margin-top: 8px;
 }
+
 
 body {
     background-color: #f2f2f2;
@@ -492,9 +518,10 @@ body {
 .bannerimg img {
     width: 1503.99px;
     height: 249.48px;
+
 }
 
-.btn {
+.banner .btn {
     width: 40px;
     height: 88px;
     background-color: white;
@@ -505,8 +532,9 @@ body {
 .leftbtn {
     border-radius: 0px 4px 4px 0px;
     left: 0px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
     bottom: 161px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+
 }
 
 .rightbtn {
@@ -518,7 +546,6 @@ body {
 
 .btn img {
     width: 10px;
-
 }
 
 .belowbanner {
@@ -536,7 +563,7 @@ body {
     padding: 16px;
 }
 
-topdealstxt1 {
+.topdealstxt1 {
     width: 1218.66px;
     height: 30px;
 }
