@@ -144,6 +144,12 @@ header {
     margin-bottom: 3px;
 }
 
+#downarrow:hover {
+    transform: rotate(-180deg);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
 #search input::placeholder {
     letter-spacing: 0.3px;
 
